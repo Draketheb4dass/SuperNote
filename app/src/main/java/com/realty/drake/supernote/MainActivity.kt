@@ -4,6 +4,10 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
+    internal var lvItems: ListView
+    internal var etEditText: EditText
+    private val REQUEST_CODE = 123
+    private var mDbHelper: TodoDbHelper? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
