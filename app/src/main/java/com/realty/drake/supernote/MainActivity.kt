@@ -2,6 +2,7 @@ package com.realty.drake.supernote
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.EditText
 
 class MainActivity : AppCompatActivity() {
     internal var lvItems: ListView
