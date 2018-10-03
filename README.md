@@ -2,7 +2,7 @@
 
 # SuperNote
 
-**Super-Note** is an android app build using Kotlin that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
+**Super-Note** is an android app build using Kotlin and Architecture Components, that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
 
 
 ## User Stories
