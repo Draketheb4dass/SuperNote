@@ -7,8 +7,6 @@ import android.widget.ListView
 
 class MainActivity : AppCompatActivity() {
     internal lateinit var lvNote: ListView
-    internal var etEditText: EditText
-    private var mDbHelper: TodoDbHelper? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
