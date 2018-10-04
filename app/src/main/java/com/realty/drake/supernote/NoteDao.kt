@@ -12,7 +12,7 @@ interface NoteDao {
     fun loadAllNotes(): List<Note>
 
     @Delete
-    fun deleteNote(id: String)
+    fun deleteNote(note: Note)
 
     @Delete
     fun deleteAllNote()
