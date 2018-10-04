@@ -8,5 +8,5 @@ import android.arch.persistence.room.PrimaryKey
 data class Note (
     @PrimaryKey(autoGenerate = true) val id: String,
     @ColumnInfo(name = "note_title") val noteTitle: String,
-    val note: String
+    @ColumnInfo(name = "note_Text") val noteText: String
 )
